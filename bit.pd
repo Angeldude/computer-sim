@@ -1,0 +1,23 @@
+#N canvas 912 529 491 372 10;
+#X obj 164 202 i;
+#X obj 258 121 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 109 110 spigot;
+#X obj 201 161 sel 1;
+#X obj 176 251 outlet;
+#X obj 145 54 inlet load;
+#X obj 64 32 inlet in;
+#X obj 95 77 i;
+#X obj 267 79 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 271 45 r clock;
+#X connect 0 0 4 0;
+#X connect 1 0 3 0;
+#X connect 2 0 0 1;
+#X connect 3 0 0 0;
+#X connect 5 0 2 1;
+#X connect 6 0 7 0;
+#X connect 7 0 2 0;
+#X connect 8 0 7 0;
+#X connect 8 0 1 0;
+#X connect 9 0 8 0;

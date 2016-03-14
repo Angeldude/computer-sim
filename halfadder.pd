@@ -1,0 +1,13 @@
+#N canvas 470 376 450 300 10;
+#X obj 166 103 and;
+#X obj 237 97 xor;
+#X obj 219 158 outlet sum;
+#X obj 123 155 outlet carry;
+#X obj 153 55 inlet a;
+#X obj 240 57 inlet b;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 4 0 0 0;
+#X connect 4 0 1 0;
+#X connect 5 0 0 1;
+#X connect 5 0 1 1;
