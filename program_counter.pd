@@ -1,4 +1,4 @@
-#N canvas 683 108 951 763 10;
+#N canvas 140 24 951 699 10;
 #X obj 86 41 inlet;
 #X obj 43 41 inlet;
 #X obj 133 41 inlet;
@@ -29,8 +29,8 @@
 #X obj 397 373 pipe 1 2 3 4 5 6 7 8 5;
 #X obj 708 147 s \$1-false;
 #X obj 376 252 r \$1-false;
-#X obj 791 145 s \$2-true;
-#X obj 525 471 r \$2-true;
+#X obj 525 471 r \$1-true;
+#X obj 791 145 s \$1-true;
 #X connect 0 0 21 1;
 #X connect 1 0 21 0;
 #X connect 2 0 21 2;
@@ -84,7 +84,7 @@
 #X connect 21 7 26 15;
 #X connect 22 0 24 0;
 #X connect 22 0 23 0;
-#X connect 23 0 30 0;
+#X connect 23 0 31 0;
 #X connect 24 0 28 0;
 #X connect 25 0 21 8;
 #X connect 25 1 21 9;
@@ -118,5 +118,5 @@
 #X connect 29 0 26 5;
 #X connect 29 0 26 6;
 #X connect 29 0 26 7;
-#X connect 31 0 12 8;
+#X connect 30 0 12 8;
 #X coords 0 0 1 1 85 60 0;
