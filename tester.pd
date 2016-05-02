@@ -2,7 +2,7 @@
 #X obj 495 20 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 495 76 s clock;
-#N canvas 657 373 462 362 counter 1;
+#N canvas 657 373 462 362 counter 0;
 #X obj 224 59 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 257 47 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
